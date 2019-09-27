@@ -1,73 +1,88 @@
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        
-    </head>
-    <body>
-        <form class="container">
-            <h3>Criminal and Crime Details:</h3>
-            <div class="form-group">
-                <label for="criminalName" class="bmd-label-floating">Full Name </label>
-                <input type="text" class="form-control" id="criminalName">
-              </div>
-              <div class="form-group">
-                <label for="crimeType" class="bmd-label-floating">Crime Type</label>
-                <input type="text" class="form-control" id="crimeType">
-              </div>
-              <div class="form-group">
-                <label for="crimeDetails" class="bmd-label-floating">Crime Details</label>
-                  <textarea class="form-control" rows="3" id="crimeDetails"></textarea>
-              </div>
-            <div class="form-group">
-                <label for="faceFront" class="form-control-file">Front Image</label>
-                <input type="file" class="form-control-file" id="faceFront">
-                <label for="faceLeft" class="form-control-file">Left Image</label>
-                <input type="file" class="form-control-file" id="faceLeft">
-                <label for="faceRight" class="form-control-file">Right Image</label>
-                <input type="file" class="form-control-file" id="faceRight">
-                <small class="text-muted">The images of person should be clear. Front image should have both the ears. No head wears or eye wears are allowed.</small>
-          </div>
-          <div class="form-group">
-            <label for="blood " class="bmd-label-floating">Blood Group</label>
-            <select class="form-control" id="exampleSelect1">
-                <option value="unknown">Unknown</option>
-                <option value="a-pos">A Positive</option>
-                <option value="a-neg">A Negative</option>
-                <option value="a-unknown">A Unknown</option>
-                <option value="a-pos">B Positive</option>
-                <option value="a-neg">B Negative</option>
-                <option value="a-unknown">B Unknown</option>
-                <option value="a-pos">AB Positive</option>
-                <option value="a-pos">AB Negative</option>
-                <option value="a-unknown">AB Unknown</option>
-                <option value="a-pos">O Positive</option>
-                <option value="a-pos">O Negative</option>
-                <option value="a-unknown">O Unknown</option>
-            </select>
-          </div>
-            <div class="form-group">
-                <label for="fingerPrint" class="form-control-file">Finger Print</label>
-                <input type="file" class="form-control-file" id="fingerPrint">
-                <label for="retinaScan" class="form-control-file">Retina Scan</label>
-                <input type="file" class="form-control-file" id="retinaScan">
-                <label for="dna" class="form-control-file">DNA</label>
-                <input type="file" class="form-control-file" id="dna">
-          </div>
-            
-          
-          <div class="checkbox">
-            <label>
-              <input type="checkbox"><small class="text-muted">All the details has been checked and verified</small>
-            </label>
-          </div>
-          <button class="btn btn-danger">Cancel</button>
-          <button type="submit" class="btn btn-primary btn-raised">Save</button>
-        </form>
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    </body>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+<body>
+	<form class="container">
+		<h3>Criminal and Crime Details:</h3>
+		<div class="form-group">
+			<label for="criminalName" class="bmd-label-floating">Full
+				Name </label> <input type="text" class="form-control" id="criminalName">
+		</div>
+		<div class="form-group">
+			<label for="crimeType" class="bmd-label-floating">Crime Type</label>
+			<input type="text" class="form-control" id="crimeType">
+		</div>
+		<div class="form-group">
+			<label for="crimeDetails" class="bmd-label-floating">Crime
+				Details</label>
+			<textarea class="form-control" rows="3" id="crimeDetails"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="faceFront" class="form-control-file">Front Image</label>
+			<input type="file" class="form-control-file" id="faceFront">
+			<label for="faceLeft" class="form-control-file">Left Image</label> <input
+				type="file" class="form-control-file" id="faceLeft"> <label
+				for="faceRight" class="form-control-file">Right Image</label> <input
+				type="file" class="form-control-file" id="faceRight"> <small
+				class="text-muted">The images of person should be clear.
+				Front image should have both the ears. No head wears or eye wears
+				are allowed.</small>
+		</div>
+		<div class="form-group">
+			<label for="blood " class="bmd-label-floating">Blood Group</label> <select
+				class="form-control" id="exampleSelect1">
+				<option value="unknown">Unknown</option>
+				<option value="a-pos">A Positive</option>
+				<option value="a-neg">A Negative</option>
+				<option value="a-unknown">A Unknown</option>
+				<option value="a-pos">B Positive</option>
+				<option value="a-neg">B Negative</option>
+				<option value="a-unknown">B Unknown</option>
+				<option value="a-pos">AB Positive</option>
+				<option value="a-pos">AB Negative</option>
+				<option value="a-unknown">AB Unknown</option>
+				<option value="a-pos">O Positive</option>
+				<option value="a-pos">O Negative</option>
+				<option value="a-unknown">O Unknown</option>
+			</select>
+		</div>
+		<div class="form-group">
+			<label for="fingerPrint" class="form-control-file">Finger
+				Print</label> <input type="file" class="form-control-file" id="fingerPrint">
+			<label for="retinaScan" class="form-control-file">Retina Scan</label>
+			<input type="file" class="form-control-file" id="retinaScan">
+			<label for="dna" class="form-control-file">DNA</label> <input
+				type="file" class="form-control-file" id="dna">
+		</div>
+		<div class="form-group">
+			<label for="jailNo" class="bmd-label-floating">Jail No </label>
+			<input type="number" class="form-control" id="jailNo">
+		</div>
+		<div class="form-group">
+			<label for="cellNo" class="bmd-label-floating">Cell No </label>
+			<input type="number" class="form-control" id="cellNo">
+		</div>
+
+		<div class="checkbox">
+			<label> <input type="checkbox"><small
+				class="text-muted">All the details has been checked and
+					verified</small>
+			</label>
+		</div>
+		<button class="btn btn-danger">Cancel</button>
+		<button type="submit" class="btn btn-primary btn-raised">Save</button>
+	</form>
+
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
 </html>
