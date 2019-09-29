@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class Delete {
 
-	public static synchronized int removeAllByName(String name) {
+	public synchronized int removeAllByName(String name) {
 
 		int rows = 0;
 		PreparedStatement preparedStatement = null;

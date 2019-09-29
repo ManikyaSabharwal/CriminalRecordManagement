@@ -11,7 +11,7 @@ import com.criminalRecord.model.Record;
 
 public class View {
 	
-	public static boolean view(Date date) {
+	public boolean view(Date date) {
 		
 		Connection conn = null;
 		Statement statement = null;
@@ -77,7 +77,7 @@ public class View {
 		return isFound;
 	}
 	
-	public static boolean view(String name) {
+	public boolean view(String name) {
 		
 		PreparedStatement preparedStatement = null;
 		ResultSet resultSet = null;
@@ -148,7 +148,7 @@ public class View {
 		return isFound;
 	}
 	
-	public static void view() {
+	public void view() {
 		
 		Thread viewName = new Thread();
 		viewName.start();

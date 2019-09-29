@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 import com.criminalRecord.model.Record;
 
-public class CRUDImplTest {
+public class CRUDImplTest implements Runnable{
 
 	static Scanner in = new Scanner(System.in);
 
@@ -258,6 +258,11 @@ public class CRUDImplTest {
 		System.out.println("Enter new Jail No.");
 		newJailNo = in.nextInt();
 		crudImpl.transfer(oldJailNo, newJailNo);
+	}
+
+	@Override
+	public void run() {
+		
 	}
 
 }
